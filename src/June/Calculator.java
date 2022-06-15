@@ -31,19 +31,11 @@ public class Calculator {
 		operator = scan.next().charAt(0);
 		System.out.println("Enter a Number: ");
 		num2 = scan.nextDouble();
-		switch (operator){
-			case '+':
-				System.out.println(sum(num1, num2));
-				break;
-			case '-':
-				System.out.println(subtract(num1, num2));
-				break;
-			case '/':
-				System.out.println(divide(num1, num2));
-				break;
-			case '*':
-				System.out.println(multiply(num1, num2));
-				break;
+		switch (operator) {
+			case '+' -> System.out.println(sum(num1, num2));
+			case '-' -> System.out.println(subtract(num1, num2));
+			case '/' -> System.out.println(divide(num1, num2));
+			case '*' -> System.out.println(multiply(num1, num2));
 		}
 	}
 }

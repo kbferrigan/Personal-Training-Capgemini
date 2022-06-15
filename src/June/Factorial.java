@@ -39,7 +39,7 @@ public class Factorial {
     }
 
     public static void main(String[] args){
-        double numToFactorial = 0;
+        double numToFactorial;
         System.out.println("What number would you like to factorial? ");
         Scanner scan = new Scanner(System.in);
         numToFactorial = scan.nextDouble();
