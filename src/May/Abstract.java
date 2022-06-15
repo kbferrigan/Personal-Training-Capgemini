@@ -11,7 +11,7 @@ class Rect extends Shape{
     void erase(){
         System.out.println("Erasing a rectangle");
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
         Shape r1 = new Rect();
         r1.draw();
         r1.erase();
